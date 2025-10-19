@@ -384,7 +384,7 @@ export default function App() {
             <Button
               variant="success"
               size="lg"
-              href="https://wa.me/+27712820018"
+              href="https://wa.me/27712820018?text=Hi%20I'm%20interested%20in%20your%20solar%20packages"
               target="_blank"
             >
               💬 Chat on WhatsApp
