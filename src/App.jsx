@@ -14,6 +14,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import houseImage from "./Assets/house.jpg";
 
+// Helper function
+function getWhatsAppLink(phoneNumber, message) {
+  // Remove leading 0 if present
+  const normalizedNumber = phoneNumber.startsWith("0")
+    ? phoneNumber.slice(1)
+    : phoneNumber;
+  // Add country code
+  const fullNumber = `27${normalizedNumber}`;
+  // Encode the message
+  const encodedMessage = encodeURIComponent(message);
+  return `https://wa.me/${fullNumber}?text=${encodedMessage}`;
+}
+
+
 export default function App() {
   // inside App.js
   const products = {
@@ -384,7 +398,7 @@ export default function App() {
             <Button
               variant="success"
               size="lg"
-              href="https://wa.me/27712820018?text=Hi%20I'm%20interested%20in%20your%20solar%20packages"
+              href={getWhatsAppLink("0712820018", "Hi I'm interested in your solar packages")}
               target="_blank"
               rel="noopener noreferrer"
             >
