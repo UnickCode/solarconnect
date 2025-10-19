@@ -1,10 +1,18 @@
 import React from "react";
-import { Container, Navbar, Nav, Button, Form, Row, Col, Card, Offcanvas } from "react-bootstrap";
+import {
+  Container,
+  Navbar,
+  Nav,
+  Button,
+  Form,
+  Row,
+  Col,
+  Card,
+  Offcanvas,
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import houseImage from './Assets/house.jpg';
-
-
+import houseImage from "./Assets/house.jpg";
 
 export default function App() {
   // inside App.js
@@ -21,16 +29,15 @@ export default function App() {
           "72kg Module Weight",
           "100A Max. Charge/Discharge Current",
           "95% Depth Of Discharge",
-          "IP65 – Enclosure Rating (Weather resistance)"
+          "IP65 – Enclosure Rating (Weather resistance)",
         ],
-         InsideBox: [ "1 x Hanchu ESS 9.4kWh HV Battery"]
+        InsideBox: ["1 x Hanchu ESS 9.4kWh HV Battery"],
       },
       {
         name: "Hanchu ESS High-Voltage BMS Cabinet",
         img: "https://sunboxsolar.co.za/wp-content/uploads/2025/08/%E2%96%8CN%E2%96%8C-%E2%96%8C-.png",
         desc: "Battery management system for safe high-voltage operation.",
         price: "R26,680.00",
-        
       },
       // Low-Voltage Batteries
       {
@@ -42,9 +49,9 @@ export default function App() {
           "34.9 kg Lighter Weight",
           "40/60A Rapid Charge and Discharge Ability",
           "100% DOD",
-          "IP54 – Enclosure rating (Weather resistance)"
+          "IP54 – Enclosure rating (Weather resistance)",
         ],
-        dimensions: "484 x 165 x 302 mm"
+        dimensions: "484 x 165 x 302 mm",
       },
       {
         name: "Hanchu ESS 5.12kWh LV Battery",
@@ -55,9 +62,9 @@ export default function App() {
           "40.5Kg Lighter Weight",
           "100A Rapid Charge and Discharge Ability",
           "95% Depth of Discharge",
-          "IP54 – Rating of Enclosure"
+          "IP54 – Rating of Enclosure",
         ],
-        dimensions: "422 x 421 x 136mm"
+        dimensions: "422 x 421 x 136mm",
       },
       {
         name: "Hanchu ESS 9.4kWh LV Battery",
@@ -68,9 +75,9 @@ export default function App() {
           "72Kg Lighter Weight",
           "100A Rapid Charge and Discharge Ability",
           "95% Depth of Discharge",
-          "IP65 – Rating of Enclosure"
+          "IP65 – Rating of Enclosure",
         ],
-        dimensions: "430 x 150 x 800mm"
+        dimensions: "430 x 150 x 800mm",
       },
       {
         name: "Hannchu ESS 2.56kWh 24 V Battery",
@@ -81,9 +88,9 @@ export default function App() {
           "24.5Kg Lighter Weight",
           "100A Rapid Charge and Discharge Ability",
           "95% Depth of Discharge",
-          "IP54 IP – Rating of Enclosure"
+          "IP54 IP – Rating of Enclosure",
         ],
-        dimensions: "340 x 160 x 340mm"
+        dimensions: "340 x 160 x 340mm",
       },
     ],
     inverters: [
@@ -99,15 +106,15 @@ export default function App() {
           "98.4% Max. Efficiency",
           "IP65 – Enclosure rating (Weather Proof)",
         ],
-         dimensions: "534 x 418 x 210 mm",
+        dimensions: "534 x 418 x 210 mm",
         InsideBox: [
           "1 x Hanchu ESS 15kW Inverter",
           "2 x Battery Lugss",
           "1 x Parallel Communication Cable",
           "1 x CT Coil",
           "Assorted MC4 connectors",
-          "User Manual"
-        ]
+          "User Manual",
+        ],
       },
       {
         name: "Hanchu ESS 30kW 3-Phase Inverter",
@@ -120,7 +127,7 @@ export default function App() {
           "30A PV Input Current",
           "100% Unbalanced Load",
         ],
-         dimensions: "800 x 620 x 300 mm"
+        dimensions: "800 x 620 x 300 mm",
       },
       {
         name: "Hanchu ESS 50kW 3-Phase Inverter",
@@ -133,7 +140,7 @@ export default function App() {
           "30A PV Input Current",
           "100% Unbalanced Load",
         ],
-         dimensions: "800 x 620 x 300 mm"
+        dimensions: "800 x 620 x 300 mm",
       },
       // Hybrid Inverters
       {
@@ -147,7 +154,7 @@ export default function App() {
           "99.9% MPPT Tracking Efficiency",
           "IP65 – Rating of Enclosure",
         ],
-         dimensions: "670 x 440 x 240mm"
+        dimensions: "670 x 440 x 240mm",
       },
       {
         name: "Hanchu ESS 6kW Hybrid Inverter",
@@ -160,7 +167,7 @@ export default function App() {
           "99.9% MPPT Tracking Efficiency",
           "IP65 – Enclosure rating (Weather Proof)",
         ],
-         dimensions: "556 x 345 x 182 mm",
+        dimensions: "556 x 345 x 182 mm",
         InsideBox: [
           "1 x Hanchu ESS 6kW Inverter",
           "4 x Mounting Bolts",
@@ -168,8 +175,8 @@ export default function App() {
           "1 x Parallel Communication Cable",
           "1 x CT Coil",
           "1 x Hex Key for Cover",
-          "User Manual"
-        ]
+          "User Manual",
+        ],
       },
       // Off-Grid Inverters
       {
@@ -183,12 +190,12 @@ export default function App() {
           "99.9% MPPT Tracking Efficiency",
           "27 kg – Lighter Weight",
         ],
-         dimensions: "620 x 445 x 130 mm",
+        dimensions: "620 x 445 x 130 mm",
         InsideBox: [
           "1 x Hanchu ESS 10kW Inverter",
           "2 x Battery Lugs",
-          "User Manual"
-        ]
+          "User Manual",
+        ],
       },
       {
         name: "Hanchu ESS 3.5kW 24V Off-Grid Inverter",
@@ -201,7 +208,7 @@ export default function App() {
           "15A MPPT input",
           "100A Charge and Discharge Ability",
         ],
-        dimensions: "358 x 295 x 105mm"
+        dimensions: "358 x 295 x 105mm",
       },
       {
         name: "Hanchu ESS 3kW Off-Grid Inverter",
@@ -213,14 +220,13 @@ export default function App() {
           "120A Rapid Charge Ability",
           "99.9% MPPT Tracking Efficiency",
           "6.2 kg – Lighter Weight",
-
         ],
         InsideBox: [
           "1 x Hanchu ESS 3kW Inverter",
           "2 x Battery Lugs",
           "User Manual",
-          "1 x CAN converter plug"
-        ]
+          "1 x CAN converter plug",
+        ],
       },
       {
         name: "Hanchu ESS 5kW Off-Grid Inverter",
@@ -232,14 +238,13 @@ export default function App() {
           "80A Rapid Charge Ability",
           "99.9% MPPT Tracking Efficiency",
           "10.8 kg – Lighter Weight",
-          
         ],
         dimensions: "426 x 322 x 124 mm",
         InsideBox: [
           "1 x Hanchu ESS 5kW Inverter",
           "2 x Battery Lugs",
-          "User Manual"
-        ]
+          "User Manual",
+        ],
       },
     ],
     panels: [
@@ -252,9 +257,9 @@ export default function App() {
           "Bloomberg Tier 1 Global Leading Brand",
           "Advanced Modular Technology",
           "Monocrystalline Cells",
-          "Excellent Power Generation Performance"
+          "Excellent Power Generation Performance",
         ],
-        dimensions: "2278 x 1134 x 30 mm"
+        dimensions: "2278 x 1134 x 30 mm",
       },
     ],
   };
@@ -274,12 +279,10 @@ export default function App() {
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
-            placement="end"  // slides from the right
+            placement="end" // slides from the right
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">
-                Menu
-              </Offcanvas.Title>
+              <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
@@ -295,21 +298,26 @@ export default function App() {
       </Navbar>
 
       {/* Hero Section */}
-      <section id="home" className="hero-section d-flex align-items-center text-center" 
-         style={{
-         backgroundImage: `url(${houseImage})`,
+      <section
+        id="home"
+        className="hero-section d-flex align-items-center text-center"
+        style={{
+          backgroundImage: `url(${houseImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          height: "100vh",
-          }}
-        >
+          height: "90vh",
+        }}
+      >
         <Container>
           <h1 className="display-5 fw-bold text-light mb-3">
             Save Money on Your Electricity Bills — Go Solar Today!
           </h1>
           <p className="text-light mb-4 px-3">
-            <span className="lead">Let the sun power your home and lower your bills.</span> 🌞
+            <span className="lead">
+              Let the sun power your home and lower your bills.
+            </span>{" "}
+            🌞
           </p>
           <Button className="quoteBtn" size="lg" href="#contact">
             Get a Free Quote
@@ -322,8 +330,11 @@ export default function App() {
         <Container>
           <h2 className="fw-bold mb-3">About</h2>
           <p className="lead px-md-5">
-            SolarConnect is a trusted company that connects you with verified solar brands and installers. We help you find the best solar solutions — fast, safe, and reliable — with no selling pressure, honest advice, a seamless connection to top solar providers, and free delivery on all orders.
-
+            SolarConnect is a trusted company that connects you with verified
+            solar brands and installers. We help you find the best solar
+            solutions — fast, safe, and reliable — with no selling pressure,
+            honest advice, a seamless connection to top solar providers, and
+            free delivery on all orders.
           </p>
         </Container>
       </section>
@@ -336,47 +347,57 @@ export default function App() {
             <Col xs={12} md={4}>
               <div className="p-3 shadow-sm rounded h-100 bg-white">
                 <h4 className="text-success fw-bold">1️⃣ Contact Me</h4>
-                <p>Send me your name, area, and power needs through WhatsApp or the form below.</p>
+                <p>
+                  Send me your name, area, and power needs through WhatsApp or
+                  the form below.
+                </p>
               </div>
             </Col>
             <Col xs={12} md={4}>
               <div className="p-3 shadow-sm rounded h-100 bg-white">
                 <h4 className="text-success fw-bold">2️⃣ Get Matched</h4>
-                <p>I’ll connect you with trusted solar installers offering the best deals in your area.</p>
+                <p>
+                  I’ll connect you with trusted solar installers offering the
+                  best deals in your area.
+                </p>
               </div>
             </Col>
             <Col xs={12} md={4}>
               <div className="p-3 shadow-sm rounded h-100 bg-white">
                 <h4 className="text-success fw-bold">3️⃣ Save Money</h4>
-                <p>Once installed, enjoy clean solar energy and say goodbye to load shedding!</p>
+                <p>
+                  Once installed, enjoy clean solar energy and say goodbye to
+                  load shedding!
+                </p>
               </div>
             </Col>
           </Row>
         </Container>
-      
-      <div className="mt-5">
-        <h2 className="fw-bold mb-3">Get in Touch</h2>
-        <p className="lead">Contact me today for a free solar referral quote!</p>
 
-        <div className="d-flex flex-wrap justify-content-center gap-3 mb-4">
-          <Button
-            variant="success"
-            size="lg"
-            href="https://wa.me/0712820018"
-            target="_blank"
-          >
-            💬 Chat on WhatsApp
-          </Button>
-          <Button
-            variant="outline-success"
-            size="lg"
-            href="mailto:your@email.com"
-          >
-            📧 Send Email
-          </Button>
+        <div className="mt-5">
+          <h2 className="fw-bold mb-3">Get in Touch</h2>
+          <p className="lead">
+            Contact me today for a free solar referral quote!
+          </p>
+
+          <div className="d-flex flex-wrap justify-content-center gap-3 mb-4">
+            <Button
+              variant="success"
+              size="lg"
+              href="https://wa.me/+27712820018"
+              target="_blank"
+            >
+              💬 Chat on WhatsApp
+            </Button>
+            <Button
+              variant="outline-success"
+              size="lg"
+              href="mailto:your@email.com"
+            >
+              📧 Send Email
+            </Button>
+          </div>
         </div>
-        </div>
-        
       </section>
 
       {/* Products Section */}
@@ -416,7 +437,9 @@ export default function App() {
 
                         {/* Dimensions */}
                         {product.dimensions && (
-                          <p className="mb-2"><strong>Dimensions:</strong> {product.dimensions}</p>
+                          <p className="mb-2">
+                            <strong>Dimensions:</strong> {product.dimensions}
+                          </p>
                         )}
 
                         {product.InsideBox && (
@@ -430,7 +453,9 @@ export default function App() {
                           </>
                         )}
 
-                        <h5 className="text-success fw-bold">{product.price}</h5>
+                        <h5 className="text-success fw-bold">
+                          {product.price}
+                        </h5>
                       </Card.Body>
                     </Card>
                   </Col>
@@ -438,7 +463,6 @@ export default function App() {
               </Row>
             </div>
           ))}
-
         </Container>
       </section>
 
@@ -447,18 +471,35 @@ export default function App() {
       <section id="contact" className="py-5 text-center">
         <Container>
           <h2 className="fw-bold mb-3">Request a Free Quote</h2>
-          <p className="lead">Fill in your details and select the products you are interested in.</p>
-          
-          <Form className="mx-auto contact-form text-start p-4 rounded shadow-sm bg-light" style={{maxWidth: "700px"}} action="https://formspree.io/f/xovkrgry" method="POST">
+          <p className="lead">
+            Fill in your details and select the products you are interested in.
+          </p>
+
+          <Form
+            className="mx-auto contact-form text-start p-4 rounded shadow-sm bg-light"
+            style={{ maxWidth: "700px" }}
+            action="https://formspree.io/f/xovkrgry"
+            method="POST"
+          >
             {/* Name */}
             <Row className="mb-3">
               <Col>
                 <Form.Label>First Name</Form.Label>
-                <Form.Control type="text" placeholder="First Name" name="First Name" required />
+                <Form.Control
+                  type="text"
+                  placeholder="First Name"
+                  name="First Name"
+                  required
+                />
               </Col>
               <Col>
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="text" placeholder="Last Name" name="Last Name" required />
+                <Form.Control
+                  type="text"
+                  placeholder="Last Name"
+                  name="Last Name"
+                  required
+                />
               </Col>
             </Row>
 
@@ -467,28 +508,53 @@ export default function App() {
             <Row className="mb-3">
               <Col>
                 <Form.Label>Street Name</Form.Label>
-                <Form.Control type="text" placeholder="Street Name" name="Street Name" required />
+                <Form.Control
+                  type="text"
+                  placeholder="Street Name"
+                  name="Street Name"
+                  required
+                />
               </Col>
               <Col>
                 <Form.Label>House Number</Form.Label>
-                <Form.Control type="text" placeholder="House Number" name="House Number" required />
+                <Form.Control
+                  type="text"
+                  placeholder="House Number"
+                  name="House Number"
+                  required
+                />
               </Col>
             </Row>
             <Row className="mb-3">
               <Col>
                 <Form.Label>Suburb</Form.Label>
-                <Form.Control type="text" placeholder="Suburb" name="Suburb" required />
+                <Form.Control
+                  type="text"
+                  placeholder="Suburb"
+                  name="Suburb"
+                  required
+                />
               </Col>
               <Col>
                 <Form.Label>City</Form.Label>
-                <Form.Control type="text" placeholder="City" name="City Name" required />
+                <Form.Control
+                  type="text"
+                  placeholder="City"
+                  name="City Name"
+                  required
+                />
               </Col>
             </Row>
 
             {/* Email */}
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Your Email" name="Email" required />
+              <Form.Control
+                type="email"
+                placeholder="Your Email"
+                name="Email"
+                required
+              />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Phone Number</Form.Label>
@@ -499,7 +565,11 @@ export default function App() {
                 name="Phone Number"
                 required
               />
-              <Form.Text className="text-muted" >    Use the South African mobile format starting with +27, e.g. +27 82 123 4567</Form.Text>
+              <Form.Text className="text-muted">
+                {" "}
+                Use the South African mobile format starting with +27, e.g. +27
+                82 123 4567
+              </Form.Text>
             </Form.Group>
 
             {/* Product Selection */}
@@ -510,7 +580,7 @@ export default function App() {
                 {items.map((product, index) => (
                   <Row key={index} className="align-items-center mb-2">
                     <Col xs={8}>
-                      <Form.Check 
+                      <Form.Check
                         type="checkbox"
                         id={`${category}-${index}`}
                         label={product.name}
@@ -519,7 +589,12 @@ export default function App() {
                       />
                     </Col>
                     <Col xs={4}>
-                      <Form.Control type="number" placeholder="Qty" min={0}      name={`quantity[${product.name}]`} />
+                      <Form.Control
+                        type="number"
+                        placeholder="Qty"
+                        min={0}
+                        name={`quantity[${product.name}]`}
+                      />
                     </Col>
                   </Row>
                 ))}
@@ -529,7 +604,12 @@ export default function App() {
             {/* Message */}
             <Form.Group className="mb-3">
               <Form.Label>Additional Message</Form.Label>
-              <Form.Control as="textarea" rows={3} placeholder="Any special requirements?" name="comment"/>
+              <Form.Control
+                as="textarea"
+                rows={3}
+                placeholder="Any special requirements?"
+                name="comment"
+              />
             </Form.Group>
 
             {/* Submit Button */}
@@ -542,10 +622,12 @@ export default function App() {
         </Container>
       </section>
 
-
       {/* Footer */}
       <footer className="text-center py-3 bg-dark text-light">
-        <small>© {new Date().getFullYear()} SolarConnect by Shaun | Powered by the Sun ☀️</small>
+        <small>
+          © {new Date().getFullYear()} SolarConnect by Shaun | Powered by the
+          Sun ☀️
+        </small>
       </footer>
     </div>
   );
